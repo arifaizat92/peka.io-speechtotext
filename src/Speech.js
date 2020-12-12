@@ -61,7 +61,7 @@ export default function Speech() {
   return (
     <>
       <div className="ui center aligned container segment" >
-        <h1 className="ui header">Peka.io</h1>
+        <h1 className="ui header">Peka</h1>
             <div id="language">Select a language: <Dropdown
             selected={language}
             onSelectedChange={setLanguage}
